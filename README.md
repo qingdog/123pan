@@ -1,3 +1,49 @@
+## quick start
+
+* https://www.python.org/downloads/#下载python
+* https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe
+
+```bash
+pip list | grep requests
+#pip list | sls requests
+pip install requests
+```
+
+```bash
+python android.py
+#输入用户名
+#输入密码
+```
+
+```bash
+#退出客户端
+exit
+#清除密码
+sed 's/\("passWord": "\).*\?\(",\)/\1\2/' 123pan.txt -i
+#查看token
+cat 123pan.txt
+clear
+#重新进入安卓端
+python android.py
+#进入目录
+1
+#下载目录中的文件
+download 1
+#上传已经移除了密码的文件123pan.txt
+upload
+123pan.txt
+```
+
+---
+
+```bash
+#退出客户端
+exit
+#移除账号密码文件重新登录
+rm -f 123pan.txt
+python android.py
+```
+
 # 123云盘 下载工具
 
 ## 项目介绍
