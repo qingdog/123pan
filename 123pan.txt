@@ -1,1 +1,1 @@
-
+{"userName": "", "passWord": "", "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Mjc0ODgxNjYsImlhdCI6MTcyNjg4MzM2NiwiaWQiOjE4MTc4MzU4NDAsIm1haWwiOiIiLCJuaWNrbmFtZSI6IjE4ODEzNTM3ODA2Iiwic3VwcGVyIjpmYWxzZSwidXNlcm5hbWUiOjE4ODEzNTM3ODA2LCJ2IjowfQ.YuqOuOqJb4qA6eYlYEsCJwPWEzGnBv3pJKKa3qCLK44"}
