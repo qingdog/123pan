@@ -655,8 +655,8 @@ class Pan123:
             pass_word = text["passWord"]
             authorization = text["authorization"]
 
-        except FileNotFoundError or json.decoder.JSONDecodeError:
-            print("read failed")
+        except:
+            print("获取配置失败，重新登录")
 
             if user_name == "" or pass_word == "":
                 if input_pwd:
@@ -717,6 +717,7 @@ class Pan123:
 
 
 if __name__ == "__main__":
+    print("web协议将废弃，请使用android协议")
     pan = Pan123(readfile=True, input_pwd=True)
     pan.show()
     while True:
