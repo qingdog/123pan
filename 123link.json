@@ -1,0 +1,15 @@
+{
+  "scriptVersion": "3.0.3",
+  "exportVersion": "1.0",
+  "usesBase62EtagsInExport": false,
+  "commonPath": "",
+  "files": [
+    {
+      "path": "ThrottleStop_9.7.zip",
+      "etag": "35d63ffb0f3fe7ece63c829a65ab3fab",
+      "size": 1790707
+    }
+  ],
+  "totalFilesCount": 1,
+  "totalSize": 1790707
+}
